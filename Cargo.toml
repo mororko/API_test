@@ -1,0 +1,10 @@
+[package]
+name = "API_text"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+utoipa = { version = "3.0", features = ["actix_extras"] }
+utoipa-swagger-ui = { version = "3.0", features = ["actix-web"] }  # ¡Habilita la feature actix-web!
+serde = { version = "1.0", features = ["derive"] }
